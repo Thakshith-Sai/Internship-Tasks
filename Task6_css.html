@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 6</title>
+    <style>
+        img {
+            margin-top: 20px;
+            margin-left: 45%;
+            border-radius: 50%;
+            width: 10%;
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+        }
+        .divi {
+            background-color: rgb(216, 216, 216);
+            padding: 2px;
+        }
+        form {
+            background-color: white;
+            
+        }
+        
+
+        .details {
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 20px;
+            padding: 16px;
+            font-size: 17px;
+        }
+
+        .details input[type=text], input[type=password] {
+            width: 100%;
+            height: 30px;
+            margin-top: 10px;
+        }
+        
+        .details :checked{
+            accent-color: rgb(19, 120, 243);
+        }
+
+        .details input[type=submit] {
+            background-color: #04AA6D;
+            width: 100%;
+            height: 40px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .bottom {
+            background-color: rgb(227, 227, 225);
+            padding: 10px;
+            width:98.7%;
+            height: 70px;
+        }
+        .canclebtn {
+            background-color: rgb(245, 59, 31);
+            padding: 15px 30px;
+            border-collapse: collapse;
+            color: white;
+            border-radius: 6px;
+            border-color: white;
+            margin-top: 10px;
+        }
+
+        .para {
+            margin-left: 1200px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>This is CSS Task 6</h1>
+
+    
+    <div class="divi">
+        <form>
+            <img src="img_avatar.png" alt="Avatar"><br><br>
+            
+            <div class="details">
+                <b><label for="username">Username</label><br></b>
+                <input type="text" placeholder="Enter Username" id="username" required><br><br>
+                <b><label for="password">Password</label><br></b>
+                <input type="password" placeholder="Enter Password" id="password" required><br><br>
+    
+                <b><input type="submit" value="Login"><br><br></b>
+                <input type="checkbox" checked="checked" id="check">
+                <label for="check" class="rem">Remember me</label><br><br>
+            </div>
+    
+            <div class="bottom">
+                <button class="canclebtn">Cancle</button>
+                <span class="para">Forget <a href="">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 1</title>
+    <style>
+        table, th, td {
+            padding: 2px;
+            border-radius: 30px;
+            background-color: rgba(120, 241, 225, 0.73);
+        }
+        table {
+            border-radius: 20px;
+            width:80%;
+            margin-bottom: 5%;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            width: 40%;
+        }
+
+        #box1, #box2, #box3,
+        #box4, #box5, #box6,
+        #box7, #box8, #box9 {
+            border: 2px solid rgb(161, 243, 39);
+            height: 80px;
+            width: 140px;
+            margin-right: 6%;
+            margin-bottom: 6%;
+        }
+
+        #box1 {
+            border-radius: 13px;
+        }
+
+        #box3 {
+            border-radius: 20px;
+        }
+        #box5 {
+            border-radius: 5px;
+        }
+        #box7 {
+            border-radius: 50%;
+        }
+        #box9 {
+            border-radius: 5px;
+            border-bottom-left-radius: 35px;
+            border-top-right-radius: 35px; 
+        }
+
+    </style>
+</head>
+
+
+<body>
+<center>
+    <h1>This is CSS Task 1</h1>
+    <h2>Shapes</h2>
+
+    <table border="2"  style="border-spacing: 3px;"> <!--border-color:white-->
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Age</th>
+            
+        </tr>
+        <tr >
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+            
+        </tr>
+        <tr >
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+            
+        </tr>
+
+    </table>
+
+</center>
+<center>
+<div id="container">
+    <div id="box1">
+    </div>
+    <div id="box1">
+    </div>
+    <div id="box3">
+    </div>
+    <div id="box1">
+    </div>
+    <div id="box5">
+    </div>
+    <div id="box3">
+    </div>
+    <div id="box7">
+    </div>
+    <div id="box5">
+    </div>
+    <div id="box9">
+    </div>
+</center>
+
+</div>
+</body>
+</html>

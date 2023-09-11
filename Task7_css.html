@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Task 7</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+      form {
+        background-color: rgb(162, 43, 85);
+        width: 33%;
+        padding: 20px;
+        border-radius: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin: auto;
+      }
+
+      table {
+        background-color: rgb(117, 32, 63);
+        margin: auto;
+        border-radius: 20px;
+        padding: 20px;
+
+      }
+
+      tr, td {
+        color: white;
+        padding-right: 20px;
+        padding-bottom: 20px;
+      }
+
+      .reg{
+        width: 100%;
+        border-radius: 20px;
+        height: 35px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+
+      <h1>This is CSS Task 7</h1>
+      <form>
+        <table>
+          <tr>
+            <td><label for="fname">First Name</label></td>
+            <td>
+              <input type="text" placeholder="Your First Name" id="fname" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Name</label></td>
+            <td>
+              <input type="text" placeholder="Your Last Name" id="lname" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" placeholder="Your Email" id="lname" /></td>
+          </tr>
+          <tr>
+            <td><label for="passwd">Password</label></td>
+            <td>
+              <input type="password" placeholder="Enter Password" id="passwd" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="phno">Phone Number</label></td>
+            <td>
+              <input type="number" placeholder="Enter Phone Number" id="phno" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td><input type="date" id="dob" /></td>
+          </tr>
+          <tr>
+            <td><label for="zip">Zip Code</label></td>
+            <td>
+              <input type="number" placeholder="Enter ZipCode" id="zip" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="gender">Choose Gender</label></td>
+            <td>
+              <label for="male">Male</label
+              ><input type="radio" id="male" name="gender" />
+              <label for="female">Female</label
+              ><input type="radio" id="female" name="gender" />
+              <label for="other">Other</label
+              ><input type="radio" id="other" name="gender" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lang">Choose Language</label></td>
+            <td>
+              <input type="checkbox" id="telugu" name="lang" />
+              <label for="telugu">Telugu</label>
+              <input type="checkbox" id="english" name="lang" />
+              <label for="english">English</label>
+              <input type="checkbox" id="hindi" name="lang" />
+              <label for="hindi">Hindi</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="state">Select State</label></td>
+            <td>
+              <select id="select">
+                <option>Select Your State</option>
+                <option value="andhrapradesh">Andhra Pradesh</option>
+                <option value="telangana">Telangana</option>
+                <option value="tamilnadu">Tamil Nadu</option>
+                <option value="katnataka">Karnataka</option>
+                <option value="kerala">Kerala</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="about">About</label></td>
+            <td>
+              <textarea id="about" name="about" rows="5" cols="20"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" ><input type="submit" value="Register" class="reg"/></td>
+          </tr>
+        </table>
+      </form>
+
+  </body>
+</html>

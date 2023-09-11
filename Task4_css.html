@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 4</title>
+
+    <style>
+        .box a{
+            height: 30px;
+            width: 80px;
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            left: -80px;
+            position: absolute;
+            transition: 0.3s;
+            color: white;
+        }
+        
+        .box a {
+            text-decoration: none;
+        }
+
+        .box a:hover {
+            left: 0;
+        }
+        .box1 {
+            background-color: rgb(5, 186, 138);
+            top: 20px;
+        }
+        .box2 {
+            background-color: rgb(33, 157, 239);
+            top: 100px;
+        }
+        .box3 {
+            background-color: rgb(247, 69, 69);
+            top: 180px;
+        }
+        .box4 {
+            background-color: rgb(101, 101, 101);
+            top: 260px;
+        }
+        .container {
+            position: absolute;
+            z-index: -1;
+            margin-left: 15%;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="" class="box1">HTML</a>
+        <div><a href="" class="box2">CSS</a></div>
+        <div><a href="" class="box3">JS</a></div>
+        <div><a href="" class="box4">C</a></div>
+    </div>
+    
+    <div class="container">
+        <h1>This is CSS Task 4</h1>
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them</p>
+    </div>
+        
+</body>
+</html>
